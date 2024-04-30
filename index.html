@@ -2,15 +2,28 @@
 <html lang="en">
 <head>
 <title> Demo </title>
+<style>
+a:link {
+  color:blue;
+  font-size:15px;
+  text-decoration:underline;
+  bordere:3px solid red;
+  padding:2px;
+}
+a:hover , a:visited , a:active {
+  color:yellow
+}
+
+</style>
 </head>
 <body>
 <!-- https://cotusandro.github.io/RBS/ -->
-<h1 style="color:red;"> This is heading 1 with Red Color. </h1>
-<h2 style="background-color:yellow;"> This is heading 2 with Background-color Yellow. </h2>
-<h3 style="font-size:30px"> This is heading 3 with Font-size 30px. </h3>
-<h4 style="text-align:center;"> This is heading 4 with Text-align center. </h4>
-<h5 style="font-family:verdana;"> This is heading 5 in Verdana font. </h5>
-<h6 style="border:10px solid red; padding:30px; margin:30px"> This is heading 6 with 10px of border and 30px of padding and margin both. </h6>
+<h1 style="color:red;" id="h1"> This is heading 1 with Red Color. </h1>
+<h2 style="background-color:yellow;" id="h2"> This is heading 2 with Background-color Yellow. </h2>
+<h3 style="font-size:30px" id="h3"> This is heading 3 with Font-size 30px. </h3>
+<h4 style="text-align:center;" id="h4"> This is heading 4 with Text-align center. </h4>
+<h5 style="font-family:verdana;" id="h5"> This is heading 5 in Verdana font. </h5>
+<h6 style="border:10px solid red; padding:30px; margin:30px" id="h6"> This is heading 6 with 10px of border and 30px of padding and margin both. </h6>
 <p> This is a Paragraph </p>
 <hr>
 <img src="https://pxdar.com/wp-content/uploads/2024/02/naruto-wallpaper.jpg" alt="Naruto" style="width:200px; height:420px;">
@@ -26,5 +39,15 @@ Solution is PRE tag
 The pre tag preserves both 
 extra spaces and line breaks
 </pre>
+
+<details>
+<summary> Chapters </summary>
+<a href="#h1"> Chapter 1 </a>
+<a href="#h2"> Chapter 2 </a>
+<a href="#h3"> Chapter 3 </a>
+<a href="#h4"> Chapter 4 </a>
+<a href="#h5"> Chapter 5 </a>
+<a href="#h6"> Chapter 6 </a> 
+</details>
 </body>
 </html>
