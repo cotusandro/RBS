@@ -24,21 +24,25 @@ table {
   border-radius:10px;
   border-spacing:8px;
 }
-th {
-  color:white;
-  background-color:black;
-  text-align:center;
-}
-td {
-  color:yellow;
-  background-color:blue;
-  text-align:center;
-}
 th , td {
   padding-top:3px;
   padding-bottom:3px;
   padding-left:2px;
   padding-right:4px;
+}
+th:nth-child(even) , td:nth-child(even) {
+  background-color:rgba(150, 212, 212, 0.4);
+}
+th {
+  color:white;
+  text-align:center;
+}
+td {
+  color:yellow;
+  text-align:center;
+}
+tr:hover {
+  background-color: #D2BFFF;
 }
 </style>
 </head>
@@ -99,8 +103,10 @@ extra spaces and line breaks
 
 <table style="width:50%;">
 <caption> Demo </caption>
-<tr>
 <!-- <th> Demo A </th> -->
+<!-- colspan is used for coloumns but rowspan is used for rows -->
+<!-- You can add the border-bottom property to all tr elements to get horizontal dividers -->
+<tr>
 <th colspan="2"> Demo B </th>
 <th> Demo C </th>
 </tr>
