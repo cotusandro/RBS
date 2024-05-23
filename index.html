@@ -73,6 +73,9 @@ float:left;
 <body>
 <!-- https://cotusandro.github.io/RBS/ -->
 <!-- Solid, Dotted, Dashed, Double, Groove, Ridge, Inset, outset, None and Hidden can be used to style border -->
+<header> a demo page! </header>
+<article>
+<section>
 <h1 style="color:red;" id="h1"> This is heading 1 with Red Color. </h1>
 <h2 style="background-color:yellow;" id="h2"> This is heading 2 with Background-color Yellow. </h2>
 <h3 style="font-size:30px" id="h3"> This is <span style="color:blue;">heading 3 </span> with Font-size 30px. </h3>
@@ -80,12 +83,17 @@ float:left;
 <h5 style="font-family:verdana;" id="h5"> This is heading 5 in Verdana font. </h5>
 <h6 style="border:10px solid red; padding:30px; margin:30px" id="h6"> This is heading 6 with 10px of border and 30px of padding and margin both. </h6>
 <p> This is a Paragraph </p>
+</section>
+</article>
 <hr>
+<figure>
 <picture>
 <source media="( min-width: 200px) and ( max-width: 1000px)" srcset="https://static.wikia.nocookie.net/naruto/images/0/0e/Boruto_TBV_Vol_1.png/revision/latest/scale-to-width-down/184?cb=20240119123121">
 <source media="( min-width: 1200px) and ( max-width: 1700px)" srcset="https://static1.srcdn.com/wordpress/wp-content/uploads/2018/10/Naruto-Jiraiya.jpg?q=50&fit=contain&w=1140&h=&dpr=1.5">
 <img src="https://www.w3schools.com/html/workplace.jpg" alt="html" style="float:center;" usemap="#workmap">
 </picture>
+<figcaption> Image </figcaption>
+</figure>
 <map name="workmap">
 <area shape="rect" coords="330,173,293,244" href="https://www.amazon.in/mobile-phones/b?ie=UTF8&node=1389401031" alt="phone" target="_blank">
 <area shape="circle" coords="337,300,42" href="https://www.amazon.in/Coffee-Espresso/b?ie=UTF8&node=4860057031" alt="coffee" target="_blank">
@@ -106,7 +114,7 @@ Solution is PRE tag
 The pre tag preserves both 
 extra spaces and line breaks
 </pre>
-
+<aside>
 <details style="background-image: url('https://www.w3schools.com/html/workplace.jpg');background-repeat: no-repeat">
 <!-- style="background-size: 50% 50%; background-attachment: fixed; background-position: center;" -->
 <summary>Chapters</summary>
@@ -124,7 +132,7 @@ extra spaces and line breaks
 <a href="#h6">Chapter 6</a>
 </pre>
 </details>
-
+</aside>
 <table style="width:50%;">
 <caption> <b> Table </b> </caption>
 <!-- <th> Demo A </th> -->
@@ -207,5 +215,11 @@ extra spaces and line breaks
 <p> <samp> File not found </samp> </p>
 <code> x=3, y=x-7, z=x+26 </code>
 <p> Variables in mathematics: <var> x,y,z </var> etc. </p> 
+<nav>
+<a href="/html/">HTML</a> 
+<a href="/css/">CSS</a> 
+<a href="/js/">JavaScript</a>
+</nav>
+<footer> Footer tag </footer>
 </body>
 </html>
